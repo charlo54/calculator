@@ -6,3 +6,4 @@ Add, subtract, multiply and divide two numbers; display the result.
 Run: python3 python3 ./run.sh
 Enter the first number, operator (+ - * /), then second number.
 The program prints Result: followed by the answer.
+To test run ./check.sh
