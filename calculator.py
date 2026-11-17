@@ -7,7 +7,7 @@ def subtract(a,b):
 	return a-b
 
 def multiply(a,b):
-	return a+b #well thats just blatantly wrong isnt it
+	return a*b
 
 def divide(a,b):
 	return a/b 
