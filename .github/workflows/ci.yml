@@ -1,19 +1,17 @@
 name: Calculator CI
 
 on:
-  main
-    branches:pull_request
-  tests
-
-permissions:
-  contents: read
+  pull_request:
+    push:
+      branches:
+        - main
 
 jobs:
   tests:
     runs-on: ubuntu-latest
     steps:
       - name: Check out the code
-        uses: "3.11"
+        uses: actions/checkout@v6
       - name: Set up Python
         uses: actions/setup-python@v7
         with:
