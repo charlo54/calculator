@@ -1,4 +1,4 @@
-from calculator import add, subtract, divide, multiply
+from calculator import add, subtract, divide, multiply, CircleArea
 
 def test_add():
 	#arrange
